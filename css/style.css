@@ -67,6 +67,10 @@ body {
   color: #312788;
 }
 
+.section-bg {
+  background-color: #F6FBFF;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -524,10 +528,20 @@ h4,
   left: 40%;
 }
 
+.bg-instruction-top {
+  background-image: url("../img/separation-top.png");
+  background-repeat: no-repeat, no-repeat;
+}
+
+.bg-instruction-bottom {
+  background-image: url("../img/separation-bottom.png");
+  background-repeat: no-repeat, no-repeat;
+}
+
 .bg-banner {
   background-image: url("../img/intro-bg.png");
   background-size: cover;
-  background-position: center;
+  background-position: center, bottom;
   background-repeat: no-repeat, no-repeat;
 }
 
