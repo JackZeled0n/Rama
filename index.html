@@ -5,88 +5,107 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Ramas</title>
+  <title>Rama</title>
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
+
+  <!-- Rama style -->
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link href="css/style.css" rel="stylesheet">
+
 </head>
 
-<body class="rgba-grey-slight">
+<body>
 
-  <!-- Main navigation -->
-  <header>
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <h3 class="font-weight-bold mt-2">
-            <span class="text-uppercase">Ramas</span>
-          </h3>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
-          aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Misión y visión</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#">Profile</a>
-            </li> -->
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" class="img-fluid" width="80" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+        aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link waves-effect waves-light" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" href="#">¿Quiénes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" href="#">Los pipitos</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!-- Navbar -->
-    <!-- Full Page Intro -->
-    <div class="view jarallax" data-jarallax='{"speed": 0.2}'
-      style="background-image: url('http://demos.codexcoder.com/tefiti-demos/assets/images/header-bg.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-      <!-- Mask & flexbox options-->
-      <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-        <!-- Content -->
-        <div class="container">
-          <!--Grid row-->
-          <div class="row">
-            <!--Grid column-->
-            <div class="col-md-12 mb-4 white-text text-center">
-              <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown"
-                data-wow-delay="0.3s"><strong>Bienvenidos</strong></h1>
-              <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
-              <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Some Title</strong></h5>              
-            </div>
-            <!--Grid column-->
+    </div>
+  </nav>
+
+  <section class="bg-banner mt-5">
+    <div class="hero-wrapper mt-5">
+      <div class="hero-left mt-5">
+        <h1 class="hero-title mt-5 mt-sm-0 mt-md-0 mt-lg-0 mt-xl-0">Haz tu parte! <br> Recicla con nosotros</h1>
+        <ul class="hero-info d-none d-lg-block">
+          <li>
+            <img src="img/icon1.png" class="icon-img"
+              alt="">
+            <h4>Plasticos</h4>
+          </li>
+          <li>
+            <img src="img/icon2.png" class="icon-img"
+              alt="">
+            <h4>Vidrio</h4>
+          </li>
+          <li>
+            <img src="img/icon3.png" class="icon-img"
+              alt="">
+            <h4>Papel</h4>
+          </li>
+          <li>
+            <img src="img/icon4.png" class="icon-img"
+              alt="">
+            <h4>Metales</h4>
+          </li>
+        </ul>
+      </div>
+      <div class="hero-right mt-4">
+        <div class="owl-carousel owl-theme hero-carousel">
+          <div class="hero-carousel-item">
+            <img class="img-fluid"
+              src="img/Recycle-Bin-Yes.jpg" alt="">
           </div>
-          <!--Grid row-->
+          <div class="hero-carousel-item">
+            <img class="img-fluid"
+              src="img/Recycle-Bin-No.jpg" alt="">
+          </div>
         </div>
-        <!-- Content -->
       </div>
-      <!-- Mask & flexbox options-->
     </div>
-    <!-- Full Page Intro -->
-  </header>
-  <!-- Main navigation -->
 
+    <div class="hero-app-1 custom-animation"><img src="img/animate_icon/icon4.png" alt=""></div>
+    <div class="hero-app-2 custom-animation2"><img src="img/animate_icon/icon2.png" alt=""></div>
+    <div class="hero-app-3 custom-animation3"><img src="img/animate_icon/icon3.png" alt=""></div>
+    <div class="hero-app-4 custom-animation2"><img src="img/animate_icon/icon5.png" alt=""></div>
+    <div class="hero-app-5 custom-animation"><img src="img/animate_icon/icon1.png" alt=""></div>
+  </section>
 
-  <div class="container mt-5">
-    <div class="row">
-     
-      <!-- Julia aca vas a agregar la parte de vision y mision -->
-      <!-- Recuerda usar los col para cada panel -->
-      <!-- Aca te dejo el link: https://mdbootstrap.com/docs/jquery/components/panels/ para que te ayudes a armar lo que haras  -->
+  <section class="grey lighten-5">
 
-
-    </div>
-  </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </section>
 
   <!-- SCRIPTS -->
   <!-- JQuery -->
@@ -97,6 +116,10 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Owl carousel -->
+  <script src="js/owl.carousel.min.js"></script>
+
+  <script src="js/main.js"></script>
 </body>
 
 </html>
