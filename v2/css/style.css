@@ -47,9 +47,6 @@ body {
 }
 
 /* Intro Style */
-.view {
-  height: 93vh;
-}
 
 .bg-intro {
   background-image: url("../img/main/bg.png");
