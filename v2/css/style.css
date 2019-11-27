@@ -1,3 +1,8 @@
+body,
+html {
+  height: 100vh;
+}
+
 /* Delete overflow x */
 body {
   overflow-x: hidden;
