@@ -60,6 +60,18 @@ body {
   background-repeat: no-repeat, no-repeat;
 }
 
+@media only screen and (max-width: 991px) {
+  .bg-intro h1 {
+    font-size: 2rem !important;
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  .bg-intro h1 {
+    font-size: 2.2rem !important;
+  }
+}
+
 /* Feature Style */
 .btn-outline-more {
   border: 2px solid #578233 !important;
@@ -72,9 +84,9 @@ body {
 
 /* Pipitos Style */
 .bg-pipitos {
-  background: linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url("../img/main/friends.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),
+    url("../img/main/friends.jpg");
   background-size: cover;
   background-position: top, top;
   background-repeat: no-repeat, no-repeat;
- 
 }
