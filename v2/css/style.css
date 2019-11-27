@@ -90,3 +90,13 @@ body {
   background-position: top, top;
   background-repeat: no-repeat, no-repeat;
 }
+
+.section-pipitos {
+  height: 50vh;
+}
+
+@media only screen and (max-width: 767px) {
+  .section-pipitos {
+    height: 100vh;
+  }
+}
