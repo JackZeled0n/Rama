@@ -33,7 +33,7 @@ body {
   color: white !important;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   .navbar {
     background-color: #88d17e;
   }
