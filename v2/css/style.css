@@ -25,6 +25,10 @@ body {
   color: #707070;
 }
 
+.light-green-rama {
+  background-color: #88d17e;
+}
+
 /* Navbar styles */
 .navbar {
   background-color: white;
@@ -52,7 +56,6 @@ body {
 }
 
 /* Intro Style */
-
 .bg-intro {
   background-image: url("../img/main/bg.png");
   background-size: cover;
@@ -93,4 +96,26 @@ body {
 
 .section-pipitos {
   height: 50vh;
+}
+
+/* Contact Style */
+.bg-contact {
+  background-image: url("../img/main/bottom.png");
+  background-size: cover;
+  background-position: top, center;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.map-container-section {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-section iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
