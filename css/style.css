@@ -58,9 +58,12 @@ body {
 /* Intro Style */
 .bg-intro {
   background-image: url("../img/main/bg.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-position: center, bottom;
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 991px) {
@@ -91,7 +94,7 @@ body {
     url("../img/main/friends.jpg");
   background-size: cover;
   background-position: top, top;
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat;
 }
 
 .section-pipitos {
@@ -103,7 +106,7 @@ body {
   background-image: url("../img/main/bottom.png");
   background-size: cover;
   background-position: top, center;
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat;
 }
 
 .map-container-section {
